@@ -1,0 +1,26 @@
+{
+  "name": "fakeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "eslint src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "morgan": "^1.10.0",
+    "uuid": "8.0.0",
+    "lodash": "4.17.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "eslint": "7.0.0"
+  }
+}
